@@ -5,6 +5,11 @@
     --cor-fundo: #ffffff;
 }
 
+/********* FONTES *********/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 /********* LINKS *********/
 a {
     color: #ffffff;
@@ -47,18 +52,46 @@ header {
 .btn-contato a {
     color: #000;
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--cor-secundaria);
     border-radius: 3px;
+}
+
+/********* TEXTO *********/
+h1 {
+    color: var(--cor-principal);
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+p {
+    color: var(--cor-principal);
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 12px;
 }
 
 /********* CONTEÚDO *********/
 body {
-    margin: 0px;    
+    margin: 0px;
+}
+
+.bloco-conteudo {
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.bloco-sobre {
+    display: flex;
+}
+
+.img-kelvin {
+    margin-top: -48px;
 }
 
 /********* RODAPÉ *********/
 footer {
-    background-color: var(--cor-principal);        
+    background-color: var(--cor-principal);
     display: block;    
     color: #fff;
     font-size: 12px;
@@ -95,26 +128,6 @@ footer {
 
 .item-rede-social {
     margin-left: 15px;
-}
-
-/********* FONTES *********/
-body, button, input, select, textarea {
-    font: 300 18px / 1.6666666667 geo-wf, Helvetica, Arial;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-variant-alternates: normal;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-feature-settings: normal;
-    font-variation-settings: normal;
-    font-variant-position: normal;
-    font-weight: 300;
-    font-stretch: normal;
-    font-size: 18px;
-    line-height: 1.66667;
 }
 
 /********* BARRA DE ROLAGEM *********/
