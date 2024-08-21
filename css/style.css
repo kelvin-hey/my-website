@@ -5,6 +5,16 @@
     --cor-fundo: #ffffff;
 }
 
+.verde {
+    color: green;
+    font-weight: 700;
+}
+
+.vermelho {
+    color: red;
+    font-weight: 700;
+}
+
 /********* FONTES *********/
 * {
     font-family: 'Poppins', sans-serif;
@@ -146,6 +156,11 @@ body {
 
 .img-empresa {
     height: 110px;
+    margin-right: 15px;
+}
+
+.img-empresa-alt {
+    width: 110px;
     margin-right: 15px;
 }
 
