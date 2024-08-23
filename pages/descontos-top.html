@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/custom.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
     <title>Descontos Top • Projeto</title>
 </head>
@@ -14,15 +15,17 @@
 <!--------- CABEÇALHO --------->
 <header>
     <div class="header-content">
-        <div class="logo">
-            <img src="../img/logo.png"/>
-        </div>
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../img/logo.png"/>
+            </div>
+        </a>
         <div class="nav">
             <ul class="nav-links">
-                <li class="nav-link"><a href="www.google.com">Experiência</a></li>
-                <li class="nav-link"><a href="www.google.com">Educação</a></li>
-                <li class="nav-link"><a href="www.google.com">Projetos</a></li>
-                <li class="nav-link"><a href="www.google.com">Tecnologias</a></li>
+                <li class="nav-link"><a href="../index.html#exp">Experiência</a></li>
+                <li class="nav-link"><a href="../index.html#edu">Educação</a></li>
+                <li class="nav-link"><a href="../index.html#projetos">Projetos</a></li>
+                <li class="nav-link"><a href="../index.html#tech">Tecnologias</a></li>
                 <li class="nav-link"><a href="www.google.com">Sobre mim</a></li>
                 <li class="nav-link btn-contato"><a href="www.google.com">Contato</a></li>
             </ul>
@@ -33,6 +36,20 @@
 <!--------- CONTEÚDO --------->
 <div class="bloco-conteudo">
 
+    <!-- BreadCrumb -->
+    <div class="bloco-breadcrumb">
+        <ul class="custom-breadcrumb">
+            <li class="primeiro">
+                <a href="../index.html" class="icon-home">
+                    <img src="../img/icone-casa.png"/>
+                </a>
+            </li>
+            <li class="last active">
+                <a href="#">Descontos Top</a>
+            </li>
+        </ul>
+    </div>
+
     <hr class="hr-text" data-content="DESCONTOS TOP">
 
     <div class="bloco-item">
@@ -40,7 +57,7 @@
             <a href="pages/descontos-top.html">
                 <div class="card-half">
                     <img src="img/projeto-descontos-top.png" style="width:100%">
-                    <div class="container">
+                    <div class="container-card">
                         <h4><b>Website Descontos Top</b></h4>
                         <p>Melhorias e Customização</p>
                     </div>
@@ -50,7 +67,7 @@
             <a href="pages/descontos-top.html">
                 <div class="card-half">
                     <img src="img/projeto-descontos-top.png" style="width:100%">
-                    <div class="container">
+                    <div class="container-card">
                         <h4><b>Website Descontos Top</b></h4>
                         <p>Melhorias e Customização</p>
                     </div>
@@ -65,9 +82,11 @@
 <footer>
     <div class="footer-content">
         <div class="footer-info">
-            <div class="logo">
-                <img src="../img/logo.png"/>
-            </div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img src="../img/logo.png"/>
+                </div>
+            </a>
             <p class="copyright">
                 © 2024, by Kelvin Hey
             </p>
